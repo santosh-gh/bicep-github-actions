@@ -48,6 +48,7 @@ jobs:
     - name: Log in with Azure
       uses: azure/login@v1
       with:
+        enable-AzPSSession: true
         creds: '${{ secrets.AZURE_CREDENTIALS }}'
 
     # Checks that all Bicep configuration files adhere to a canonical format
