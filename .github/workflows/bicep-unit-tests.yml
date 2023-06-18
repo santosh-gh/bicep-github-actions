@@ -10,7 +10,7 @@ on:
     - main
 
 env:
-  LOCATION: "production"
+  LOCATION: "southindia"
   
 #Special permissions required for OIDC authentication
 permissions:
