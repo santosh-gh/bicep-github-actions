@@ -49,6 +49,7 @@ jobs:
       uses: azure/login@v1
       with:
         creds: '${{ secrets.AZURE_CREDENTIALS }}'
+        environment: 'production'
 
     # Checks that all Bicep configuration files adhere to a canonical format
     - name: Bicep Lint
